@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body. html{
+    width: 100%;
+    overflow-x: 0;
+}
+/* 인덱스 스타일 */
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.wrap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 3;
+}
+
+.bottom-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.top-image01 {
+    position: absolute;
+    top: 4800px; /* 이미지의 위에서 50px 내려놓기 */
+    width: 310px; /* 위 이미지 크기 */
+    height: 91px;
+    z-index: 1; /* z-index를 높게 해서 위에 올리기 */
+}
+.top-image02 {
+    position: absolute;
+    top: 5000px; /* 이미지의 위에서 50px 내려놓기 */
+    left: 120px;
+    width: 310px; /* 위 이미지 크기 */
+    height: 91px;
+    z-index: 1; /* z-index를 높게 해서 위에 올리기 */
+}
+
+.b01_01{position: absolute;
+    top: 20px; /* 이미지의 위에서 50px 내려놓기 */
+    left: 100px; /* 이미지의 왼쪽에서 50px 오른쪽으로 */
+    width: 310px; /* 위 이미지 크기 */
+    height: 91px;
+    z-index: 1;
+    z-index: 1;
+}
+
+.b01_i01{padding-top: 49px;}
+.b01_i02{padding-top: 90px;}
+.b01_i03{padding-top: 90px;}
+.b01_i04{padding-top: 90px;}
+.b01_i05{padding-top: 90px;}
+.b01_i06{padding-top: 90px;}
+.b01_i07{padding-top: 90px;}
+.b01_i08{padding-top: 90px;}
+.b01_i09{padding-top: 120px;}
